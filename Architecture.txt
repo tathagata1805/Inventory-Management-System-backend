@@ -1,0 +1,27 @@
+Specification requirements - 
+#1. Inventory Management (Supplier)
+#2. Order Management
+
+Modules -
+#1. Roles - Admin, Manager/s, Sales Person, Customer
+#2. Auth - (Login/Register/Reset)
+#3. Sales Person - 
+     [Customer - Name/Mobile/Email/DOB/Address, Invoice - INV_SL, Type of Payment - Cash/UPI/Credit/Debit]
+#4. Customer - 
+    [Orders, Offers, Edit Profile]
+#5. Manager - 
+    [ SP - CRUD, Orders/SP, Inventory CRUD ]
+#6. Admin - 
+    [ Manager - CRUD, SP - CRUD, Inventory CRUD, Orders/Manager, Orders/SP ]
+
+Architectures Inventory and Order -
+#1. Table - Suppliers [ID, Name, Address, Ph No, Email ... ]
+#2. Table - Product Unit [  ID, Singular Name, Plural Name // Piece, Box, Bundle, Litter, Kg ]
+#3. Table - Warehouse - [ ID, Name, Address ] // 0, Direct
+#4. Table - Products - [ ID, Name, Photo, MRP, Sale Price, REF: Supplier ID, REF: Product Unit ID, REF: Warehouse ID, Expiry Date, Date of Creation, Date of Update ]
+#5. Table - Inventory - [ ID, REF: Product ID, Quantity ]
+#6. Table - Order/Invoice - [ID, REF: Customer ID, ARR REF: [PRODUCT_ID, QUANTITY], ORDER_TOTAL, Date of Creation, Date of Update ]
+
+
+Requirements - 
+#1. We able to fetch available products from all warehouses, about how many products are there, from which supplier, how many are transfer to shopping mall.

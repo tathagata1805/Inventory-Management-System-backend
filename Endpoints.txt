@@ -1,0 +1,43 @@
+# CUSTOMERS:-
+1. Register
+2. Login
+3. Logout
+4. Change Password
+
+# MANAGERS:-
+1. Register
+2. Login
+3. Logout
+4. Change Password
+5. Delete User
+6. Delete Product
+7. Delete Warehouse
+8. Delete Supplier
+9. Delete Product Unit
+10. Delete Inventory
+11. Get Users
+12. Get Suppliers
+13. Get Product Units
+14. Get Products
+15. Get Warehouses
+16. Get Inventory
+
+# ADMIN:-
+1. Register
+2. Login
+3. Logout
+4. Change Password
+5. Delete User
+6. Delete Managers
+7. Delete Product
+8. Delete Warehouse
+9. Delete Supplier
+10. Delete Product Unit
+11. Delete Inventory
+12. Get Users
+13. Get Managers
+14. Get Suppliers
+15. Get Product Units
+16. Get Products
+17. Get Warehouses
+18. Get Inventory
